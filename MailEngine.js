@@ -16,6 +16,7 @@ class MailEngine {
     }
 
     _createGuestMailOptions() {
+        //TODO: Implement mongo driver to send to list of subscribers
         const options =  {
             from: 'pnyxarbbot@gmail.com',
             to: 'zachdwyer815@gmail.com',
